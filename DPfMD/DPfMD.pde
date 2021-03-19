@@ -48,7 +48,7 @@ float yIn;
 float x1, y1, x2, y2;
 float x3, y3, x4, y4;
 
-int maxgraf=1366;
+int maxgraf=1200;
 int[] grafica=new int[maxgraf];
 int ng=0;
 int dato;
@@ -89,7 +89,7 @@ return dateTime;
 }
 
 void setup() {
- fullScreen();
+ size(1200, 800);
  if (frame != null) {
    surface.setResizable(false);
  }
